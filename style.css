@@ -3,6 +3,8 @@
     height: 320px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 .square {
     height: 40px;
@@ -10,6 +12,9 @@
     position: relative;
 }
 
+.p {
+    text-align: center;
+}
 .square svg {
     height: 30px;
     width: 30px;
