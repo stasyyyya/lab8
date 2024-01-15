@@ -3,7 +3,7 @@ const playerDisplay = document.querySelector("#player")
 const infoDisplay = document.querySelector("#info-display")
 const width = 8
 let playerGo = 'black'
-playerDisplay.textContent = 'black'
+playerDisplay.textContent = 'черные'
 
 const startPieces = [
     rook, knight, bishop, queen, king, bishop, knight, rook,
@@ -99,11 +99,11 @@ function changePlayer() {
     if (playerGo == 'black') {
         reverseIds()
         playerGo = 'white'
-        playerDisplay.textContent = 'white'
+        playerDisplay.textContent = 'белые'
     } else {
         reverIds()
         playerGo = 'black'
-        playerDisplay.textContent = 'black'
+        playerDisplay.textContent = 'черные'
     }
 }
 
